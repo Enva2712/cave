@@ -1,7 +1,10 @@
 {
-  "name": "@enva2712/cave",
-  "version": "0.1.0",
-  "exports": "./mod.ts",
+  "name": "@cavedb/cave",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./migrate": "./src/migrate.ts"
+  },
   "tasks": {
     "dev": "deno test --watch"
   },
